@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use strict';
 
 module.exports = function (environment) {
@@ -46,6 +47,7 @@ module.exports = function (environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
   }
+  ENV.MAPBOX_ACCESS_TOKEN ='pk.eyJ1IjoibWVsaW5kYXpoYW5nIiwiYSI6ImNsMmlzbnJ1eDBxNDkzYnA5b2plcXIxN2cifQ.njWEMQbOixe0TtKMnZKnUQ';
 
   return ENV;
 };
